@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Forms</title>
+</head>
+<body>
+
+    
+<p id="display_1"></p>
+
+            <form>
+                        First name:<br>
+                        <input type="text" name="firstname" maxlength="10" minlength="3" optional>
+                        <br>
+                        Last name:<br>
+                        <input type="text" name="lastname" disabled><br>
+                        Date of Birth:<br>
+                        <input id="inValue1" type="text" required></input>
+                                            <br>
+                        E-mail:<br> <input type="email" name="email" autocomplete="off"><br>
+                        <br><br>
+                                            
+                       
+                       <input id="formIn" type="number" min="100" max="350">
+                       <button onclick="myMin_Max()">OK</button>
+                                                              
+                       <p id="demo"></p>
+
+
+
+
+
+
+
+                        <input type= "submit" value="submit" ></input>
+            </form>
+            <p id="display_2"></p>
+
+<script src="forms.js"></script>
+</body>
+</html>
