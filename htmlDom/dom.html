@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<p>This example demonstrates the <b>getElementById</b> method!</p>
+
+<p id="display1">Hello javascript</p>
+<p id="display2"></p>Hello <br>
+<p id="display3"></p>Hi<br>
+
+<p class="intro">The DOM is very useful.</p>
+<p class="intro">This example demonstrates the</p>
+<p class="byClass">  asda</p>
+
+
+
+
+<p id="display 4">ffzfzz</p>
+<script src="dom.js"></script>
+
+<button id="myBtn">Try it</button>
+
+<p id="display4"></p>
+
+<script>
+document.getElementById("myBtn").addEventListener("click", displayDate);
+
+function displayDate() {
+    document.getElementById("display4").innerHTML = Date();
+}
+</script>
+
+
+</body>
+</html>

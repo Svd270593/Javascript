@@ -22,3 +22,4 @@ while(inValue1<inValue2)
 	
 	console.log(inValue1);
 }};
+
