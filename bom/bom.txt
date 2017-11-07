@@ -1,0 +1,6 @@
+window.location.(href, hostname, pathname, protocol, assign)
+Navigator
+
+window.navigator.(appName, appCodeName,platform,
+	cookieEnabled,product,appVersion,userAgent,online, javaEnable()
+

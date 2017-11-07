@@ -1,0 +1,28 @@
+window.location.(href, hostname, pathname, protocol, assign)
+Navigator
+
+history.back()
+history.forward()
+
+
+window.navigator.(appName, appCodeName,platform,cookieEnabled,product,appVersion,userAgent,online, javaEnable()
+
+
+Timing:
+
+
+setTimeout, clearTimeout,setInterval, clearInterval (function, milliseconds)
+
+
+Forms:
+
+
+attributes: action, name, method, target, novalidate, enctype, autocomplete, accept char
+
+
+
+Torque Technologies:
+
+spouse
+Adult dependent 
+Domestic Partner

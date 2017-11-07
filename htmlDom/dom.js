@@ -10,11 +10,5 @@ document.getElementById("display2").style.color = "blue";
 document.getElementById("display3").style.fontFamily = "Arial";
 
 
-// event listner
-function mybtn(){
-document.getElementById("myBtn").addEventListener("click", displayDate);
-
-function displayDate() {
-    document.getElementById("display4").innerHTML = Date();
 }
 }

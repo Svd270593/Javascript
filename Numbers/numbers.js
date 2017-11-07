@@ -28,6 +28,9 @@ function randy(){
   document.getElementById("display_2").innerHTML=z;
   //The maximum is exclusive and the minimum is inclusive
 }
- 		
-
-};
+ 		};
+	
+function myexpo() {
+	var expNum="document.getElementById("expIn").value;";
+    document.getElementById("display_2").innerHTML = Math.exp(expNum);
+}	

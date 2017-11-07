@@ -4,39 +4,60 @@
 <head>
 
 <title>Forms</title>
+<style>
+
+</style>
 </head>
 <body>
 
     
 <p id="display_1"></p>
 
-            <form>
+            <form name="form_name1" onsubmit="return validateForm()">
                         First name:<br>
                         <input type="text" name="firstname" maxlength="10" minlength="3" optional>
                         <br>
                         Last name:<br>
                         <input type="text" name="lastname" disabled><br>
                         Date of Birth:<br>
-                        <input id="inValue1" type="text" required></input>
+                        <input id="numb" type="text" ></input>
                                             <br>
-                        E-mail:<br> <input type="email" name="email" autocomplete="off"><br>
+                        E-mail:<br> <input type="email" name="email"  ><br>
                         <br><br>
                                             
+                       <input id="formIn" type="number" min="100" max="350"><p>Validation of numeric Input</p>
                        
-                       <input id="formIn" type="number" min="100" max="350">
-                       <button onclick="myMin_Max()">OK</button>
+					   
                                                               
-                       <p id="demo"></p>
-
-
-
-
-
-
-
-                        <input type= "submit" value="submit" ></input>
+                      <input type="text" name="country_code" pattern="[A-Za-z]{3}" name="zip_code"><p> enter country code </p><br>
+					  
+		
+					   
+<br>
+                        <input type= "submit" value="submit" >
             </form>
             <p id="display_2"></p>
+            
+            <p id="display_3">Display 3 is here</p>
+
+
+
+
+            <form name="personal"  onsubmit="return checkscript()"> 
+                    <legend><label>names</label><input type=text size=20 name=name>
+                    <input type=text size=20 name=address>
+                    <input type=text size=20 name=city>
+                    <input type= "submit" value="submit" ></legend>
+                   
+                    <br><br>
+
+                    Select images: <input type="file" name="img" multiple>
+                   
+                    <input type="image" src="a.jpg" alt="Submit" width="48" height="48">
+
+
+                </form>
+
 
 <script src="forms.js"></script>
 </body>

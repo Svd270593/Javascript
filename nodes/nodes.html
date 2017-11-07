@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+<body>
+<p> nodeName is read-only<br>
+nodeName of an element node is the same as the tag name<br>
+nodeName of an attribute node is the attribute name<br>
+nodeName of a text node is always #text<br>
+nodeName of the document node is always #document<br>
+</p>
+<h1 id="one">My First Page</h1>
+<p id="three">asdasdadsavzvzv</p>
+<p id="two"> </p>
+
+<script>
+document.getElementById("two").innerHTML = document.getElementById("one").childNodes[0].nodeValue+document.getElementById("three").childNodes[0].nodeValue;
+
+
+alert(document.documentElement.innerHTML);
+
+
+
+</script>
+
+</body>
+</html>
