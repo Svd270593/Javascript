@@ -14,7 +14,7 @@ function array_range()
       document.getElementById("arry_data").innerHTML= newArr;
 
 };
-   var contactArry=["name:xxx-xxx-xxxx"];
+   var contactArry=[""];
 function arrayContacts()
 {
   
@@ -33,6 +33,6 @@ function arrayContacts()
 
   contactArry.push(fullContact);
  
-  document.getElementById("arry_contact").innerHTML=contactArry;
+  document.getElementById("arry_contact").innerHTML+=contactArry;
   console.log(contactArry);
 };

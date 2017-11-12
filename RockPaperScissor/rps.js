@@ -1,6 +1,8 @@
+
+
 function rGame(){
  
-    startFunction();    
+    
 var x=rpsGame();
 
 switch(x){
@@ -15,11 +17,11 @@ switch(x){
             break;
 
 }
-
-}       
+}
+     
 function pGame(){
 
-    startFunction();  
+      
 var x=rpsGame();
 switch(x){
     case 1:
@@ -33,13 +35,13 @@ switch(x){
             break;
           
 
-    
+}   
 }
-}
+
 function sGame(){
             
 var x=rpsGame();
-startFunction(); 
+
 switch(x){
     case 1:
             document.getElementById("display_result").innerHTML="You Lose"+"<br>"+ "computer Choose :Rock";
@@ -53,20 +55,15 @@ switch(x){
 
 
           
-}                
+}              
+}
 
-};
 
 function rpsGame(){
 return Math.floor(Math.random() * (3 - 1 + 1) ) + 1;
 
 };
 
-function startFunction() {
-    document.getElementById("startBtn").innerHTML= "hello";
-};
-
-    function player1(){}
 
 //jquery function used for slide and hide functions;
 $(document).ready(function(){
@@ -94,11 +91,11 @@ $(document).ready(function(){
 
 });
 
-$("#double").click(function(){
-    $("#gameSpace").fadeOut(1000);
-    $("#vsGame").fadeIn(1000);
-    
-});
+
 });
 
+function aboutGame() {
+        window.open(href="https://www.google.com/imgres?imgurl=https://www.wikihow.com/images/thumb/3/33/Play-Rock%252C-Paper%252C-Scissors-Step-5-Version-3.jpg/aid42597-v4-728px-Play-Rock%252C-Paper%252C-Scissors-Step-5-Version-3.jpg&imgrefurl=https://www.wikihow.com/Play-Rock,-Paper,-Scissors&h=546&w=728&tbnid=7fP2T1Syf7sxtM:&tbnh=158&tbnw=211&usg=__CzmpP1o9YemUZ8xpJ6E3XY7RcaQ=&vet=10ahUKEwjNr66bsrfXAhXnzIMKHevsCesQ9QEILDAA..i&docid=c2lKvHJsRi8MlM&sa=X&ved=0ahUKEwjNr66bsrfXAhXnzIMKHevsCesQ9QEILDAA"
+        , "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=500,width=400,height=400");
+    }
 

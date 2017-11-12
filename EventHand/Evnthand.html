@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function checkCookies()
+{
+ if ( navigator.cookieEnabled == true )
+ {
+alert("Cookies are enabled")
+ }
+ else
+ {
+alert("Cookies are not enabled")
+ }
+}
+</script>
+
+<script>
+function makeUpper()
+{
+ var text = document.getElementById("fname").value; // get the value of the fname input box
+ var new_text = text.toUpperCase( ); // convert value to uppercase
+ document.getElementById("fname").value = new_text; // set the value of the fname input box
+}
+</script>
+
+
+<body onload="checkCookies()">
+<p>An alert box should tell enabled cookies or not.</p>
+
+Enter your name:
+<input type="text" id="fname" onchange="makeUpper()" >
+<p>When you leave the input field,
+case.</p>
+
+</body>
+</html>
